@@ -3,12 +3,53 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     borderRadius: {
-      "4xl": "4rem",
+      "border-65": "65px",
+      "border-30": "30px",
+      "border-9999": "9999px",
+      "border-4": "4px",
+    },
+    borderWidth: {
+      "16": "16px",
+    },
+    boxShadow: {
+      "3xl": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)",
     },
     fontFamily: {
       "px-regular": "Inter",
     },
+    width: {
+      "334": "334px",
+      "85": "85px",
+      "96": "96px",
+      "222": "222px",
+      "348": "348px",
+      "426": "426px",
+      "434": "434px",
+      "442": "442px",
+      "512": "512px",
+      "598": "598px",
+    },
+    height: {
+      "223": "223px",
+      "355": "355px",
+    },
+    fontSize: {
+      sm: "16px",
+      f14: "14px",
+      f15: "15px",
+    },
     extend: {
+      padding: {
+        "15px": "15px",
+        "93": "93px",
+      },
+      backdropBlur: {
+        "n": "47.34px",
+      },
+      spacing: {
+        "5px": "5px",
+      },
+
       colors: {
         "neutral-50": "#f9f9f9",
         "neutral-100": "#f4f4f4",
